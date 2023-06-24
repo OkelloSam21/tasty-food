@@ -13,25 +13,40 @@
   padding: 0;
 }
 
+.navbar{
+  background-color: red;
+  /* display: flex; */
+  padding: 12px ;
+}
 
-.navbar-links img{
+nav .logo{
   width: 167px;
   height: 175px;
   flex-shrink: 0;
 }
 
+/* .navbar-links img{
+  width: 167px;
+  height: 175px;
+  flex-shrink: 0;
+} */
+
 .navbar-links{
-  align-content: center;
+  /* float: right; */
+  width: 70%;
+  background-color: green;
 }
 
 .navbar-links a{
+  float: right;
+  padding-left: 20px;
     /* display: flex; */
     /* flex-direction: column; */
-    justify-content: right;
+    /* justify-content: right;
     flex-shrink: 0;
     align-items: center;
     font-size: 1.25em;
-    font-family: Poppins;
+    font-family: Poppins; */
     /* margin: 2em; */
   }
 
