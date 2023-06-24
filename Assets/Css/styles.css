@@ -41,9 +41,7 @@ a{
 
 .container{
   padding: .75em;
-/* margin-top: 25px; */
-/* margin-left: 2em; */
-margin-bottom: 3.75em;
+  margin-bottom: 3.75em;
 }
 
 .tasty-food{
