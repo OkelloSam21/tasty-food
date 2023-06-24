@@ -91,12 +91,12 @@ margin-bottom: 3.75em;
  display: block;
 }
 
-.footer{
+/* .footer{
   padding: ; 
   background-color: black;
   color: #FFF;
   display: flex;
-}
+} */
 
 footer .social-media-icons{
   display: flex;
