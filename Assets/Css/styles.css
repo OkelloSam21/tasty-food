@@ -14,8 +14,8 @@
 }
 
 .navbar{
-  background-color: red;
-  /* display: flex; */
+  /* background-color: red; */
+  display: flex;
   padding: 12px ;
 }
 
@@ -26,9 +26,7 @@ nav .logo{
 }
 
 .navbar-links{
-  /* float: right; */
-  width: 70%;
-  background-color: green;
+  float: right;
 }
 
 .navbar-links a{
@@ -39,9 +37,6 @@ nav .logo{
 a{
   text-decoration: none;
   color: black;
-  /* display: flex; */
-  flex-direction: right;
-  text-align: center;
 } 
 
 .container{
