@@ -91,6 +91,25 @@ margin-bottom: 3.75em;
  display: block;
 }
 
+.footer{
+  padding: ; 
+  background-color: black;
+  color: #FFF;
+  display: flex;
+}
+
+footer .social-media-icons{
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+}
+
+footer .nav-links a{
+  display: flex;
+  color: #FFF;
+}
+
+
 
 
 
