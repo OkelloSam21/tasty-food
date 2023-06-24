@@ -25,12 +25,6 @@ nav .logo{
   flex-shrink: 0;
 }
 
-/* .navbar-links img{
-  width: 167px;
-  height: 175px;
-  flex-shrink: 0;
-} */
-
 .navbar-links{
   /* float: right; */
   width: 70%;
@@ -40,14 +34,6 @@ nav .logo{
 .navbar-links a{
   float: right;
   padding-left: 20px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: right;
-    flex-shrink: 0;
-    align-items: center;
-    font-size: 1.25em;
-    font-family: Poppins; */
-    /* margin: 2em; */
   }
 
 a{
