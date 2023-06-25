@@ -30,9 +30,9 @@ nav .logo{
 }
 
 .navbar-links a{
-  float: right;
+  /* float: right; */
   padding-left: 20px;
-  }
+}
 
 a{
   text-decoration: none;
