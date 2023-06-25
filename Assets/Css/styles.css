@@ -39,14 +39,24 @@ nav .logo{
 
 .navbar-links li{
   display: inline-block;
-  float: right;
+  /* float: right; */
   margin-right: 2px;
 }
 
-a{
+.navbar-links li a{
+  display: block;
+  min-width: 140px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+/* a{
   text-decoration: none;
   color: black;
-} 
+}  */
 
 .container{
   padding: .75em;
