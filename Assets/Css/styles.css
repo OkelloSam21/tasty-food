@@ -56,8 +56,9 @@ a{
 .tasty-food .description img{
   margin-top: 3.75rem;
   margin-left: 30rem;
-  width: 150px;
-  height: 200px;
+  width: 167px;
+  height: 175px;
+  flex-shrink: 0;
 
 }
 
@@ -73,7 +74,7 @@ a{
   width: 5rem;
   height: 2.5rem;
   border-radius: 1em;
-  background-color: #f7b934c9;
+  background-color: #F8B15E;
 }
 
 .recipe-container{
