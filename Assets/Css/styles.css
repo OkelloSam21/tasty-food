@@ -25,9 +25,9 @@ nav .logo{
   flex-shrink: 0;
 }
 
-.navbar-links{
-  /* float: right; */
-}
+/* .navbar-links{
+  float: right;
+} */
 
 .navbar-links ul{
   list-style-type: none;
@@ -93,9 +93,9 @@ nav .logo{
 }
 
 
-.tasty-food{
+/* .tasty-food{
   
-}
+} */
 
 .tasty-food h1{
   margin-top: 1.75em;
