@@ -39,6 +39,8 @@ nav .logo{
 
 .navbar-links li{
   display: inline-block;
+  float: right;
+  margin-right: 2px;
 }
 
 a{
