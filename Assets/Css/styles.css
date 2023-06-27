@@ -5,11 +5,15 @@
   border: 0 solid #e5e7eb;
   margin: 0;
   padding: 0;
+
+  --navbar-link-bg-color: #dcdcdc;
+  --recipe-container-bg-color: #F8B15E;
+  --navbar-links-li-a-color: #000;
 }
 
 .navbar{
   /* background-color: red; */
-  display: flex;
+  /* display: flex; */
   padding: 12px ;
 }
 
@@ -17,6 +21,7 @@ nav .logo{
   width: 167px;
   height: 175px;
   flex-shrink: 0;
+  background: url("./Assets/Images/logo 1.png"), lightgray 50% / cover no-repeat;
 }
 
 /* .navbar-links{
@@ -27,7 +32,9 @@ nav .logo{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  float: right;
+  /* float: right; */
+  display: flex;
+  justify-content: flex-end;
   text-transform: capitalize;
 }
 
@@ -36,7 +43,7 @@ nav .logo{
   /* float: right; */
   /* margin-right: 50px; */
   border-radius: 20px;
-  background-color: #dcdddf;
+  background-color: var(--navbar-link-bg-color);
 }
 
 .navbar-links li a{
@@ -47,7 +54,7 @@ nav .logo{
   line-height: 50px;
   font-family: Poppins;
   text-decoration: none;
-  color: black;
+  color: var(--navbar-links-li-a-color);
 }
 
 .navbar-links li ul{
@@ -92,8 +99,14 @@ nav .logo{
 } */
 
 .tasty-food h1{
-  margin-top: 1.75em;
-  margin-left: 2.75em;
+  /* margin-top: 1.75em;
+  margin-left: 2.75em; */
+  color: #000;
+  text-align: center;
+  /* font-size: 96px; */
+  font-family: Potta One;
+  line-height: 0%;
+  text-transform: capitalize;
 }
 
 .tasty-food .description img{
@@ -106,10 +119,16 @@ nav .logo{
 }
 
 .tasty-food .description-text{ 
-  /* margin-top: 1rem; */
-  margin-left: .75em;
+  display: flex;
+  width: 777px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: 500;
   text-transform: capitalize;
-  font-size: 1em;
 }
 
 .container button{
@@ -122,7 +141,7 @@ nav .logo{
 
 .recipe-container{
   padding: 3rem;
-  background: #F8B15E;
+  background: var(--recipe-container-bg-color);
 }
 
 .recipe-images{
