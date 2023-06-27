@@ -6,48 +6,64 @@
   margin: 0;
   padding: 0;
 
-  --navbar-link-bg-color: #dcdcdc;
+  --navbar-link-bgk-color: #dcdcdc;
   --recipe-container-bg-color: #F8B15E;
   --navbar-links-li-a-color: #000;
+  --navbar-link-bg-color: #f39c9c;
 }
 
 .navbar{
-  /* background-color: red; */
-  /* display: flex; */
+  top: 0;
+  /* margin-left: 50%; */
+  width: 100%;
   padding: 12px ;
+  height: 13vh;
+  line-height: 10px;
+  background-color:var(--navbar-link-bg-color) ;
+  /* display: flex; */
 }
-
-nav .logo{
-  width: 167px;
-  height: 175px;
-  flex-shrink: 0;
-  background: url("./Assets/Images/logo 1.png"), lightgray 50% / cover no-repeat;
+.img{
+  height: 15px;
+  /* line-height: 10px; */
+  
+}
+.navbar .logo{
+  /* width: 50px;
+  height: 2vh;
+  flex-shrink: 0; */
+  /* background: url("./Assets/Images/logo 1.png"), lightgray 50% / cover no-repeat; */
 }
 
 /* .navbar-links{
-  float: right;
+background-color: #000;
 } */
 
-.navbar-links ul{
+.wrapper .navbar ul{
+
   list-style-type: none;
-  margin: 0;
+  /* margin-right: 50%; */
+  margin-top: 0px;
   padding: 0;
+    margin-left: 70%;
+    position: fixed;
+    justify-content: space-around;
   /* float: right; */
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex; */
+  /* justify-content: flex-end; */
   text-transform: capitalize;
 }
 
-.navbar-links li{
-  /* display: inline-block; */
+.navbar ul li{
+  display: inline-block;
   /* float: right; */
-  /* margin-right: 50px; */
+
+
   border-radius: 20px;
-  background-color: var(--navbar-link-bg-color);
+  /* background-color: var(--navbar-link-bgk-color); */
 }
 
-.navbar-links li a{
-  display: block;
+.navbar ul li a{
+  display: inline-block;
   min-width: 80px;
   height: 50px;
   text-align: center;
@@ -57,20 +73,20 @@ nav .logo{
   color: var(--navbar-links-li-a-color);
 }
 
-.navbar-links li ul{
+/* .navbar-links li ul{
   display: none;
-}
-
+} */
+/* 
 .navbar-links li ul li {
   display: block;
   float: none;
-}
+} */
 
-.navbar-links li ul li a{
+/* .navbar-links li ul li a{
   width: auto;
   min-width: 100px;
   padding: 0 200px;
-}
+} */
 
 /* @media screen and (max-width : 760px) {
   ul{
@@ -89,18 +105,19 @@ nav .logo{
 } */
 
 .container{
-  padding: .75em;
-  margin-bottom: 3.75em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  /* padding: .75em;
+  margin-bottom: 3.75em; */
 }
 
-
-/* .tasty-food{
+.tasty-food{
+/* background: #000; */
   
-} */
+}
 
 .tasty-food h1{
-  /* margin-top: 1.75em;
-  margin-left: 2.75em; */
   color: #000;
   text-align: center;
   /* font-size: 96px; */
@@ -109,16 +126,13 @@ nav .logo{
   text-transform: capitalize;
 }
 
-.tasty-food .description img{
-  margin-top: 3.75rem;
-  margin-left: 30rem;
-  width: 167px;
-  height: 175px;
-  flex-shrink: 0;
+.tasty-food .description-image{
 
+  border-radius: 466px;
+  background: var(--navbar-link-bg-color)url("./tasty-food/Assets/Images/Pan-Seared-Salmon-with-kale-and-apple-salad-1.png"), lightgray 50% / cover no-repeat;
 }
 
-.tasty-food .description-text{ 
+.tasty-food .description-text p{ 
   display: flex;
   width: 777px;
   flex-direction: column;
@@ -140,7 +154,9 @@ nav .logo{
 }
 
 .recipe-container{
-  padding: 3rem;
+  /* padding: 3rem; */width: 1920px;
+height: 752px;
+flex-shrink: 0;
   background: var(--recipe-container-bg-color);
 }
 
@@ -165,8 +181,3 @@ footer .nav-links a{
   display: flex;
   color: #FFF;
 }
-
-
-
-
-
