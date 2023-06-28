@@ -10,24 +10,29 @@
   --recipe-container-bg-color: #F8B15E;
   --navbar-links-li-a-color: #000;
   --navbar-link-bg-color: #f39c9c;
+
+  --a-text-decoration: none;
+  --text-font-family: Poppins,sans-serif;
 }
 
-.navbar{
+.navbar {
   top: 0;
   /* margin-left: 50%; */
   width: 100%;
-  padding: 12px ;
+  padding: 12px;
   height: 13vh;
   line-height: 10px;
-  background-color:var(--navbar-link-bg-color) ;
+  /* background-color: var(--navbar-link-bg-color); */
   /* display: flex; */
 }
-.img{
+
+.img {
   height: 15px;
   /* line-height: 10px; */
-  
+
 }
-.navbar .logo{
+
+.navbar .logo {
   /* width: 50px;
   height: 2vh;
   flex-shrink: 0; */
@@ -38,38 +43,34 @@
 background-color: #000;
 } */
 
-.wrapper .navbar ul{
+.wrapper .navbar ul {
 
   list-style-type: none;
   /* margin-right: 50%; */
-  margin-top: 0px;
-  padding: 0;
-    margin-left: 70%;
-    position: fixed;
-    justify-content: space-around;
-  /* float: right; */
-  /* display: flex; */
+  /* margin-top: 0px; */
+  /* padding: 0; */
+  /* margin-left: 70%; */
+  float: right;
+  display: flex;
   /* justify-content: flex-end; */
   text-transform: capitalize;
 }
 
-.navbar ul li{
+.navbar ul li {
   display: inline-block;
   /* float: right; */
-
-
   border-radius: 20px;
-  /* background-color: var(--navbar-link-bgk-color); */
+  background-color: var(--navbar-link-bgk-color);
 }
 
-.navbar ul li a{
+.navbar ul li a {
   display: inline-block;
   min-width: 80px;
   height: 50px;
   text-align: center;
   line-height: 50px;
-  font-family: Poppins;
-  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  text-decoration: var(--a-text-decoration);
   color: var(--navbar-links-li-a-color);
 }
 
@@ -104,35 +105,32 @@ background-color: #000;
   
 } */
 
-.container{
+.container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 0.5fr;
   grid-gap: 0px;
   /* padding: .75em;
   margin-bottom: 3.75em; */
+  width: 100%;
 }
 
-.tasty-food{
-/* background: #000; */
-  
+.tasty-food {
+  padding: 0px;
+  margin-top: 25px;
+  /* border: #000 solid; */
 }
 
-.tasty-food h1{
-  color: #000;
+.tasty-food h1 {
+  color: var(--navbar-links-li-a-color);
   text-align: center;
-  /* font-size: 96px; */
-  font-family: Potta One;
-  line-height: 0%;
-  text-transform: capitalize;
+  font-size: 96px;
+  font-family: Potta One, sans-serif;
+  line-height: 100%;
+  margin-bottom: 50px;
 }
 
-.tasty-food .description-image{
-
-  border-radius: 466px;
-  background: var(--navbar-link-bg-color)url("./tasty-food/Assets/Images/Pan-Seared-Salmon-with-kale-and-apple-salad-1.png"), lightgray 50% / cover no-repeat;
-}
-
-.tasty-food .description-text p{ 
+.tasty-food .description-text p {
+  margin-left: 90px;
   display: flex;
   width: 777px;
   flex-direction: column;
@@ -140,29 +138,56 @@ background-color: #000;
   flex-shrink: 0;
   color: #000;
   font-size: 36px;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   text-transform: capitalize;
 }
 
-.container button{
-  margin: 3rem;
-  width: 5rem;
-  height: 2.5rem;
-  border-radius: 1em;
+.tasty-food button {
+  margin: 5em;
+  width: 10em;
+  height: 6vh;
+  border-radius: 1.15em;
+  line-height: 5px;
   background-color: #F8B15E;
 }
 
-.recipe-container{
-  /* padding: 3rem; */width: 1920px;
-height: 752px;
-flex-shrink: 0;
+.tasty-food button a{
+  text-decoration: var(--a-text-decoration);
+  color: var(--navbar-links-li-a-color);
+  font-family: var(--text-font-family);
+}
+
+.description-image {
+  padding: 10px;  
+  /* background: var(--navbar-link-bg-color)url("./tasty-food/Assets/Images/Pan-Seared-Salmon-with-kale-and-apple-salad-1.png"), lightgray 50% / cover no-repeat; */
+}
+
+.description-image img {
+  border-radius: 466px;
+  width: 400px;
+  /* height: 5vh; */
+}
+.recipe-container {
+  /* padding: 3em; */
+  width: 100%;
+  /* height: 752px; */
+  flex-shrink: 0;
   background: var(--recipe-container-bg-color);
 }
 
-.recipe-images{
- display: block;
+.recipe-images {
+  /* padding: 35px; */
+  justify-items: center;  
 }
+
+.recipe-images img{
+  height: 44vh;
+  /* width: 'fit-content''-moz-fit-content'; */
+  /* margin-top: 30px; */
+  /* line-height: 140px; */
+}
+
 
 /* .footer{
   padding: ; 
@@ -171,13 +196,13 @@ flex-shrink: 0;
   display: flex;
 } */
 
-footer .social-media-icons{
+footer .social-media-icons {
   display: flex;
   flex-direction: column;
   color: #FFF;
 }
 
-footer .nav-links a{
+footer .nav-links a {
   display: flex;
   color: #FFF;
 }
