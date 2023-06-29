@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/OkelloSam21/tasty-food/issues"
   },
-  "homepage": "https://github.com/OkelloSam21/tasty-food#readme"
+  "homepage": "https://github.com/OkelloSam21/tasty-food#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
 }
