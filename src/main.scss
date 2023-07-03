@@ -11,3 +11,20 @@ $line-height-base: 1.5;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+.description-text{
+   h1 {
+        font-family: Potta One;
+        font-size: 96px;
+    }
+
+    p{
+     font-family: Poppins;
+    }
+}
+
+button{
+    a{
+        text-align: center;
+        text-decoration: none;
+    }
+}
