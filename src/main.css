@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.logo{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.logo img{
+  height: 17vh;
+}
+.navbar{
+  display: flex;
+}
+
+.navbar-nav{
+  margin-left: 39%;
+  
+}
+
+.navbar-nav ul{
+  margin-top: 15px;
+  display: flex;
+  float: right;
+}
+
+.navbar-nav ul li{
+  list-style: none;
+  margin-left: 15px;
+  background-color: gainsboro;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;  
+  border-radius: 35px;
+}
+
+.navbar-nav ul li a{
+  line-height: normal;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+}
+
+#cartbg{
+  background-color: #f8B15E;
+}
