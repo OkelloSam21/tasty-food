@@ -64,6 +64,7 @@ footer {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 500px;
 }
 
@@ -124,3 +125,39 @@ footer {
   font-weight: 300;
 }
 
+@media (max-width: 600px) {
+
+  footer {
+    padding: 25px 50px;
+
+  }
+
+  .footer-wrapper a {
+    font-size: 9px;
+  }
+
+  .social-media-icons h6 {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .social-link h6 {
+    font-size: 9px;
+  }
+
+  .contact-details h6 {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .footer-nav, .social-media-icons {
+    flex-basis: 100%;
+  } 
+
+  .social-media-icons {
+    margin: 20px 0;
+  }
+}
