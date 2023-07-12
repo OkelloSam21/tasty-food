@@ -47,3 +47,119 @@
 #cartbg{
   background-color: #f8B15E;
 }
+
+
+
+
+/* FOOTER CSS */
+
+footer {
+  padding: 25px 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.footer-wrapper a {
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.social-media-icons h6 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2.5px;
+}
+
+.social-link h6 {
+  font-size: 12px;
+}
+
+.img-wrapper {
+  height: 15px;
+}
+
+.img-wrapper img {
+  height: 100%;
+}
+
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-details h6 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+
+  footer {
+    padding: 25px 50px;
+
+  }
+
+  .footer-wrapper a {
+    font-size: 9px;
+  }
+
+  .social-media-icons h6 {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .social-link h6 {
+    font-size: 9px;
+  }
+
+  .contact-details h6 {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .footer-nav, .social-media-icons {
+    flex-basis: 100%;
+  } 
+
+  .social-media-icons {
+    margin: 20px 0;
+  }
+}
